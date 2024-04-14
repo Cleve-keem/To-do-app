@@ -2,7 +2,7 @@ const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
 function addTask(){
-    if(inputBox.value === ){
+    if(inputBox.value === ""){
         alert("Enter a task to do for the day");
     }
     else{
